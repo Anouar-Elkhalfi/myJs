@@ -27,6 +27,19 @@
 // console.log(bonusPoints);
 // bonusPoints = bonusPoints + 70;
 // console.log(bonusPoints);
+// function increment(){
+//   console.log("the button was clicked");
+// }
+let countEl = document.getElementById("count-el");
+let count = 0;
 function increment(){
-  console.log("the button was clicked");
+  count = count + 1;
+  countEl.innerText = count;
+
 }
+
+function save(){
+  console.log(count)
+}
+
+console.log(count);
