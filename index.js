@@ -41,5 +41,8 @@ function increment(){
 function save(){
   console.log(count)
 }
-let userName = "per";
-console.log(userName);
+let userName = "Anouar";
+
+let message = "You have tree new notifications";
+let messageToUser = message +", "+ userName + "!"
+console.log(messageToUser);
